@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const AxiosBackend = axios.create({
-  baseURL: "http://localhost:8080/api/tareas", 
+  baseURL: "https://cozy-sparkle-production.up.railway.app/api/tareas", 
   headers: {
     "Content-Type": "application/json", 
   },
