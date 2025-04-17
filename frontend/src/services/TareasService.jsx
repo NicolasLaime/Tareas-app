@@ -29,7 +29,7 @@ export const obtenerTareasCompletadas = async (page) => {
 };
 
 
-// Completar una tarea
+
 export const completarTarea = async (id) => {
   try {
     const response = await AxiosBackend.put(`/completar/${id}`);
